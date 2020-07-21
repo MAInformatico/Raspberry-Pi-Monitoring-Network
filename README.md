@@ -1,5 +1,5 @@
 # Raspberry-Pi-Monitoring-Network
-This repo contains the sources to monitoring your local network with a Raspberry Pi. Read the wiki for more information
+This repo contains source files to monitoring your local network with a Raspberry Pi. Read the wiki for more information
 Dependencies: Nagios
 
 Tested on: Raspbian stretch. In new Raspbian versions (Buster) there are some differences about the SMTP file configuration.
