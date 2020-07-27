@@ -1,4 +1,6 @@
 # Raspberry-Pi-Monitoring-Network
+Update 27/7/2020: Raspbian has been renamed to Raspbian Pi OS
+
 This repo contains source files to monitoring your local network with a Raspberry Pi. Read the wiki for more information
 Dependencies: Nagios
 
