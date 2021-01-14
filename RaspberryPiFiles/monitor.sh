@@ -4,6 +4,6 @@ sudo ps -aux > process.txt;
 sudo netstat -natp > ports.txt;
 date >> HTTPsConnections.txt;
 python3 -m http.server 1234 & #Please verify if your port is allowed in your firewall
-sleep 9.0; #9 delay of secs
+sleep 2m; #2 minutes delay
 kill -9 `ps -ef |grep python3 |grep 1234 |awk '{print $2}'` #1234 is the port used by Python http server, it can be changed.
 
