@@ -4,7 +4,7 @@ Update 27/7/2020: Raspbian has been renamed to Raspbian Pi OS
 This repo contains source files to monitoring your local network with a Raspberry Pi. Read the wiki for more information
 Dependencies: Nagios
 
-Tested on: Raspbian stretch. In new Raspbian versions (Buster) there are some differences about the SMTP file configuration.
+Tested on: Raspbian OS, Debian and Windows 10 (client.py)
 
 If you want to configure it on this newer version, you can check this link: https://pi3g.com/2020/10/15/gmail-workspace-gmail-suite-send-e-mail-from-server-using-msmtp/
 
