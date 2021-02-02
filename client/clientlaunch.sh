@@ -1,2 +1,2 @@
-cd <path>;
-python3 <script_path>/client.py
+#You can use it to schedule a cron task
+python3 client.py
