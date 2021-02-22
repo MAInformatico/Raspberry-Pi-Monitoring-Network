@@ -1,3 +1,4 @@
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -15,9 +16,7 @@ public class client extends Thread{
 	private InputStream      inputStream      = null;	
 	static int len = 0;
 	static int off = 0;
-	static String IP = ""; //your IP
-	static String Port = ""; //your Port
-	static String path = "";	//the folder that you want to download the files
+	static String path = "/home/mike/Descargas/RasPiFileReceived/";	
 	static ArrayList<String> Files = new ArrayList<>();	
 	
 	static void  addFiles(ArrayList<String> Files){
@@ -47,7 +46,7 @@ public class client extends Thread{
 	try {
 		addFiles(Files);
 		for(int i = 0; i<Files.size();i++){
-			new client(new URL("http://"+ IP + ":" + Port + "/" + Files.get(i)), path).start();
+			new client(new URL("http://192.168.1.39:1234/" + Files.get(i)), path).start();
 		}
 	} catch (MalformedURLException malformedURLException) {
 		malformedURLException.printStackTrace();
