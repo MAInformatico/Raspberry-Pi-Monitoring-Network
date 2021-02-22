@@ -9,6 +9,7 @@ else
 	then
 	    echo "No Python!"
 	else
+		cd pythonclient
         	python3 client.py
 	fi
 
