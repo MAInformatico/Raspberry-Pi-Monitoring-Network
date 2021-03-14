@@ -11,6 +11,7 @@ else
 	else
 		cd pythonclient
         	python3 client.py
+		python3 parser.py #required to plugin FlaskMonitorNetwork
 	fi
 
 fi
